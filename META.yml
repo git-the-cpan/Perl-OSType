@@ -3,19 +3,20 @@ abstract: 'Map Perl operating system names to generic types'
 author:
   - 'David Golden <dagolden@cpan.org>'
 build_requires:
-  ExtUtils::MakeMaker: 0
-  File::Spec::Functions: 0
-  List::Util: 0
-  Test::More: 0.88
-  constant: 0
+  ExtUtils::MakeMaker: '0'
+  File::Spec: '0'
+  Test::More: '0.88'
+  constant: '0'
+  perl: '5.006'
 configure_requires:
-  ExtUtils::MakeMaker: 6.17
+  ExtUtils::MakeMaker: '6.17'
+  perl: '5.006'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.011, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Perl-OSType
 no_index:
   directory:
@@ -28,19 +29,20 @@ no_index:
 provides:
   Perl::OSType:
     file: lib/Perl/OSType.pm
-    version: 1.007
+    version: '1.008'
 requires:
-  Exporter: 0
-  perl: 5.006
-  strict: 0
-  warnings: 0
+  Exporter: '0'
+  perl: '5.006'
+  strict: '0'
+  warnings: '0'
 resources:
   bugtracker: https://github.com/dagolden/Perl-OSType/issues
   homepage: https://github.com/dagolden/Perl-OSType
   repository: https://github.com/dagolden/Perl-OSType.git
-version: 1.007
+version: '1.008'
 x_authority: cpan:DAGOLDEN
 x_contributors:
+  - "Chris 'BinGOs' Williams <chris@bingosnet.co.uk>"
   - 'Jonas B. Nielsen <jonasbn@hoarfrost.local>'
   - 'Owain G. Ainsworth <oga@nicotinebsd.org>'
   - 'Paul Green <Paul.Green@stratus.com>'
