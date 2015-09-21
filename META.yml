@@ -12,7 +12,7 @@ configure_requires:
   ExtUtils::MakeMaker: '6.17'
   perl: '5.006'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240'
+generated_by: 'Dist::Zilla version 5.039, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -29,17 +29,17 @@ no_index:
 provides:
   Perl::OSType:
     file: lib/Perl/OSType.pm
-    version: '1.008'
+    version: '1.009'
 requires:
   Exporter: '0'
   perl: '5.006'
   strict: '0'
   warnings: '0'
 resources:
-  bugtracker: https://github.com/dagolden/Perl-OSType/issues
-  homepage: https://github.com/dagolden/Perl-OSType
-  repository: https://github.com/dagolden/Perl-OSType.git
-version: '1.008'
+  bugtracker: https://github.com/Perl-Toolchain-Gang/Perl-OSType/issues
+  homepage: https://github.com/Perl-Toolchain-Gang/Perl-OSType
+  repository: https://github.com/Perl-Toolchain-Gang/Perl-OSType.git
+version: '1.009'
 x_authority: cpan:DAGOLDEN
 x_contributors:
   - "Chris 'BinGOs' Williams <chris@bingosnet.co.uk>"
